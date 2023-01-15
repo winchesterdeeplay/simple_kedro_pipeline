@@ -1,0 +1,9 @@
+postgres_table_dataset:
+  type: pandas.SQLTableDataSet
+  credentials: postgres_credentials
+  table_name: test
+  load_args:
+    schema: public
+  save_args:
+    schema: public
+    if_exists: replace

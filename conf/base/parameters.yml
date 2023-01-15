@@ -1,0 +1,10 @@
+targets_columns_1:
+  - column1
+  - column2
+
+targets_columns_2:
+  - column3
+  - column4
+
+aws_table_name_1: table_1
+aws_table_name_2: table_2
